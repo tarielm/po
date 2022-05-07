@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+#header{
+    padding: 15px 0;
+    background: rgba(44, 44, 44, 0.7);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    z-index: 2345;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    font-family: 'Monrope', sans-serif;
+    font-size: 18px;
+    color: #DEDEDE;
+    padding: 0 20px;
+}
+#hero{
+    background: url("../img/fon.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#tech{
+    padding-top: 100px;
+    background: #000000;
+}
+
+.tech-general p{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    margin-bottom: 20px;
+}
+.tech-general h1{
+    width: 364px;
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #DEDEDE;
+    margin-bottom: 100px;
+}
+
+.tech-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-block p{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    margin-bottom: 15px;
+}
+
+.tech-block h1{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #DEDEDE;
+}
+
+#problem{
+    padding: 100px 0;
+    background: #000000;
+}
+
+.problem-desc{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    margin-bottom: 20px;
+}
+
+.problem-desc2{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    margin-bottom: 2px;
+}
+.problem h1{
+    font-family: 'Monrope', sans-serif;
+    width: 1248px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #DEDEDE;
+    margin-bottom: 80px;
+}
+
+.problem-width{
+    width: 188px;
+    height: 2px;
+   background: #A5A5A5;
+
+}
+
+#office{
+    background: url("../img/fon2.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#lorem{
+    padding-top: 150px;
+    background: #000000;
+}
+
+.lorem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lorem-general{
+    padding-left: 150px;
+}
+
+.lorem p{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.lorem h1{
+    font-family: 'Monrope', sans-serif;
+    width: 612px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#windows{
+    padding-top: 150px;
+    background: #000000;
+}
+
+.windows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.windows p{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.windows h1{
+    font-family: 'Monrope', sans-serif;
+    width: 712px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+#figma{
+    padding: 150px 0;
+    background: #000000;
+}
+
+.figma{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+}
+
+.figma p{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ada7a7;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.figma-title {
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 54px;
+    /*letter-spacing: -0.5px;*/
+    margin-bottom: 100px;
+}
+
+.figma img{
+    margin-bottom: 200px;
+}
+
+.figma-title2{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #DEDEDE;
+    margin-bottom: 2px;
+}
+
+.figma-width{
+    margin-left: 493px;
+
+    width: 153px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+#footer {
+    padding: 50px 0;
+    background: #000000;
+}
+
+.width {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #696969;
+    margin-bottom: 40px;
+    top: 344rem;
+    right: 1px;
+}
+.footer-general b{
+    color: white;
+}
+
+.footer-general p {
+    font-family: 'Monrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #959595;
+}
+
+.footer-the {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-icons span {
+    padding: 0 20px;
+    font-size: 23px;
+}
